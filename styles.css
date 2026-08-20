@@ -1,3 +1,122 @@
-html {
+* {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+    background: white;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+}
+
+header img {
+    width: 160px;
+}
+
+header a {
+    background: #e85d04;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Hero section */
+
+.hero {
+    background: #f1f1f1;
+    padding: 100px 8%;
+    max-width: 100%;
+}
+
+.tagline {
+    font-weight: bold;
+    color: #e85d04;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 1;
+    max-width: 700px;
+    margin: 20px 0;
+}
+
+.hero > p:not(.tagline) {
+    font-size: 19px;
+    line-height: 1.6;
+    max-width: 650px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 25px;
+    background: #e85d04;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* About section */
+
+.about {
+    padding: 80px 8%;
+    max-width: 900px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 15px 5%;
+    }
+
+    header img {
+        width: 120px;
+    }
+
+    header a {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 60px 5%;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    .about {
+        padding: 60px 5%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
 }
