@@ -120,3 +120,63 @@ h2 {
         font-size: 32px;
     }
 }
+
+/* Referral page */
+
+.referral {
+padding: 90px 8%;
+text-align: center;
+}
+
+.referral h1 {
+max-width: 800px;
+margin: 20px auto;
+}
+
+.referral > p:not(.tagline) {
+font-size: 19px;
+line-height: 1.6;
+margin: 0 auto 40px;
+}
+
+.referral-options {
+display: flex;
+flex-direction: column;
+gap: 20px;
+max-width: 600px;
+margin: 0 auto;
+}
+
+.referral-button {
+display: block;
+padding: 20px;
+background: #e85d04;
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.referral-button:hover {
+background: #c94f03;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+.referral {
+    padding: 60px 5%;
+}
+
+.referral h1 {
+    font-size: 42px;
+}
+
+.referral-button {
+    font-size: 18px;
+    padding: 18px;
+}
+
+}
