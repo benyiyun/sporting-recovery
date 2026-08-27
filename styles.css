@@ -392,3 +392,130 @@ header img {
 
 }
 
+/* ------------------------------
+Referral Page
+------------------------------ */
+
+.referral-page {
+background: #f1f1f1;
+min-height: calc(100vh - 100px);
+}
+
+/* Teal Heading Band */
+
+.referral-heading {
+background: #008c95;
+color: white;
+text-align: center;
+padding: 70px 8%;
+}
+
+.referral-heading .tagline {
+color: white;
+margin: 0 0 15px;
+}
+
+.referral-heading h1 {
+font-size: 56px;
+margin: 0 0 20px;
+}
+
+.referral-intro {
+max-width: 650px;
+margin: 0 auto;
+font-size: 18px;
+}
+
+/* Referral Options */
+
+.referral-options {
+max-width: 900px;
+margin: 0 auto;
+padding: 60px 8%;
+
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+text-align: left;
+
+}
+
+.referral-option {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+
+padding: 25px 30px;
+
+background: white;
+border: 1px solid #ddd;
+border-radius: 8px;
+
+color: #222;
+text-decoration: none;
+
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.referral-option:hover {
+transform: translateY(-3px);
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.referral-option-text h2 {
+margin: 0 0 8px;
+font-size: 24px;
+}
+
+.referral-option-text p {
+margin: 0;
+color: #555;
+}
+
+.referral-arrow {
+font-size: 30px;
+color: #008c95;
+flex-shrink: 0;
+}
+
+/* Referral Page Mobile */
+
+@media (max-width: 600px) {
+
+.referral-heading {
+    padding: 60px 5%;
+}
+
+.referral-heading h1 {
+    font-size: 42px;
+}
+
+.referral-intro {
+    font-size: 16px;
+}
+
+.referral-options {
+    padding: 40px 5%;
+}
+
+.referral-option {
+    padding: 20px;
+}
+
+.referral-option-text h2 {
+    font-size: 20px;
+}
+
+.referral-option-text p {
+    font-size: 14px;
+}
+
+.referral-arrow {
+    font-size: 24px;
+}
+
+}
+
