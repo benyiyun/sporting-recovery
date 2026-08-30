@@ -302,6 +302,11 @@ font-weight: bold;
 border-radius: 5px;
 }
 
+.hero-text .view-programmes {
+    display: inline-block;
+    margin: 20px 0 0 10px;
+}
+
 .view-programmes:hover {
 background: #006f76;
 }
