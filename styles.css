@@ -518,3 +518,390 @@ flex-shrink: 0;
 
 }
 
+/* Header Navigation */
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-link {
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #008c95;
+}
+
+/* ------------------------------
+Programmes Page
+------------------------------ */
+
+/* Page Introduction */
+
+.programmes-intro {
+background: #008c95;
+color: white;
+text-align: center;
+padding: 70px 8%;
+}
+
+.programmes-intro h1 {
+font-size: 56px;
+margin-bottom: 20px;
+}
+
+.programmes-intro p {
+max-width: 750px;
+margin: 0 auto;
+font-size: 18px;
+}
+
+/* ------------------------------
+How to Join
+------------------------------ */
+
+.how-to-join {
+padding: 80px 8%;
+}
+
+.join-steps {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap: 25px;
+}
+
+.join-step {
+text-align: center;
+padding: 25px;
+}
+
+.step-icon {
+font-size: 40px;
+margin-bottom: 15px;
+}
+
+.step-number {
+color: #008c95;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 14px;
+margin: 0 0 10px;
+}
+
+.join-step h3 {
+font-size: 21px;
+margin-bottom: 10px;
+}
+
+.join-step p:last-child {
+font-size: 15px;
+color: #555;
+}
+
+/* ------------------------------
+Weekly Programmes
+------------------------------ */
+
+.weekly-programmes {
+background: #f1f1f1;
+padding: 80px 8%;
+}
+
+.venue-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.venue-card {
+background: white;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.venue-day {
+color: #e85d04;
+font-size: 20px;
+font-weight: bold;
+margin: 0 0 5px;
+}
+
+.venue-card h3 {
+font-size: 30px;
+margin-bottom: 15px;
+}
+
+.venue-card h4 {
+font-size: 17px;
+margin-bottom: 5px;
+}
+
+.venue-detail {
+color: #555;
+font-size: 14px;
+}
+
+.venue-time {
+color: #008c95;
+font-size: 18px;
+font-weight: bold;
+border-bottom: 1px solid #ddd;
+padding-bottom: 15px;
+margin-bottom: 15px;
+}
+
+.session-list p {
+font-size: 14px;
+margin: 12px 0;
+}
+
+.session-list strong {
+display: inline-block;
+min-width: 65px;
+}
+
+/* ------------------------------
+Wellness Cafe
+------------------------------ */
+
+.wellness-cafe {
+display: flex;
+gap: 70px;
+padding: 80px 8%;
+align-items: flex-start;
+}
+
+.cafe-text {
+flex: 1;
+}
+
+.small-heading {
+color: #008c95;
+font-size: 14px;
+font-weight: bold;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.cafe-text h2 {
+font-size: 42px;
+margin-bottom: 20px;
+}
+
+.cafe-features {
+flex: 1;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+}
+
+.cafe-feature {
+display: flex;
+gap: 15px;
+padding: 20px;
+background: #f1f1f1;
+border-radius: 8px;
+}
+
+.cafe-feature > span {
+font-size: 30px;
+flex-shrink: 0;
+}
+
+.cafe-feature h3 {
+margin: 0 0 8px;
+font-size: 19px;
+}
+
+.cafe-feature p {
+margin: 0;
+font-size: 14px;
+color: #555;
+}
+
+/* ------------------------------
+Programmes Referral Button
+------------------------------ */
+
+.programmes-referral {
+text-align: center;
+padding: 0 8% 80px;
+}
+
+/* ------------------------------
+Health Professionals
+------------------------------ */
+
+.health-professionals {
+background: #e3f4ff;
+padding: 80px 8%;
+}
+
+.health-professional-content {
+display: flex;
+gap: 70px;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.health-professional-main {
+flex: 1;
+}
+
+.health-professional-main h2 {
+font-size: 40px;
+margin-bottom: 20px;
+}
+
+.professional-list {
+margin: 30px 0;
+}
+
+.professional-list p {
+margin: 12px 0;
+font-size: 16px;
+}
+
+/* Eligibility Box */
+
+.eligibility-box {
+width: 380px;
+background: white;
+padding: 30px;
+border-radius: 8px;
+}
+
+.eligibility-item {
+padding: 15px 0;
+border-bottom: 1px solid #ddd;
+}
+
+.eligibility-item:last-child {
+border-bottom: none;
+}
+
+.eligibility-item h3 {
+color: #008c95;
+font-size: 16px;
+margin-bottom: 5px;
+}
+
+.eligibility-item p {
+font-size: 15px;
+margin: 0;
+}
+
+/* ------------------------------
+Ready to Join
+------------------------------ */
+
+.ready-to-join {
+background: #008c95;
+color: white;
+text-align: center;
+padding: 70px 8%;
+}
+
+.ready-to-join h2 {
+font-size: 42px;
+margin-bottom: 15px;
+}
+
+.ready-to-join p {
+max-width: 650px;
+margin: 0 auto 30px;
+font-size: 18px;
+}
+
+/* Orange button on teal background */
+
+.ready-to-join .button {
+background: #e85d04;
+}
+
+.ready-to-join .button:hover {
+background: #c94f03;
+}
+
+/* ------------------------------
+Programmes Page Mobile
+------------------------------ */
+
+@media (max-width: 900px) {
+
+.join-steps {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.venue-container {
+    grid-template-columns: 1fr;
+}
+
+.wellness-cafe {
+    flex-direction: column;
+}
+
+.health-professional-content {
+    flex-direction: column;
+}
+
+.eligibility-box {
+    width: 100%;
+}
+
+}
+
+@media (max-width: 600px) {
+
+.programmes-intro {
+    padding: 60px 5%;
+}
+
+.programmes-intro h1 {
+    font-size: 42px;
+}
+
+.how-to-join,
+.weekly-programmes,
+.wellness-cafe,
+.health-professionals {
+    padding: 60px 5%;
+}
+
+.join-steps {
+    grid-template-columns: 1fr;
+}
+
+.join-step {
+    padding: 15px;
+}
+
+.venue-card {
+    padding: 25px;
+}
+
+.cafe-features {
+    grid-template-columns: 1fr;
+}
+
+.health-professional-main h2 {
+    font-size: 34px;
+}
+
+.ready-to-join {
+    padding: 60px 5%;
+}
+
+.ready-to-join h2 {
+    font-size: 34px;
+}
+
+
+}
