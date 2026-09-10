@@ -688,6 +688,72 @@ background: #c94f03;
 }
 
 /* ==================================================
+DONATE PAGE
+===================================================*/
+
+.donate-intro {
+background: #008c95;
+color: white;
+text-align: center;
+padding: 70px 8%;
+}
+
+.donate-intro h1 {
+font-size: 56px;
+margin-bottom: 20px;
+}
+
+.donate-intro p {
+max-width: 750px;
+margin: 0 auto;
+font-size: 18px;
+}
+
+.donate-section {
+    background: #f1f1f1;
+    padding: 80px 8%;
+}
+
+.options-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.donate-option {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.donate-type {
+    color: #008c95;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.donate-option .button {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.custom-amount {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+
+/* ==================================================
 CONTACT PAGE
 ================================================== */
 
@@ -1117,5 +1183,40 @@ header nav {
     padding: 25px;
 }
 
+/* Donate page */
+
+.donate-intro {
+    padding: 60px 5%;
+}
+
+.donate-intro h1 {
+    font-size: 42px;
+}
+
+.donate-intro p {
+    font-size: 16px;
+}
+
+.donate-section {
+    padding: 60px 5%;
+}
+
+.options-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.donate-option {
+    padding: 25px;
+}
+
+.custom-amount {
+    grid-column: 1;
+    text-align: center;
+}
+
+.custom-amount .view-programmes {
+    margin-top: 20px;
+}
 }
 
